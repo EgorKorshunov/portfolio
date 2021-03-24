@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color:rgba(37, 37, 37, 0.85);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* background-image: linear-gradient(#2c2b2b, #221419); */
+    background-color: #ecf3c7;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-bottom: 20px; */
+}
+
+html {
+    min-height: 100%;
+}
+
+.container {
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+}
+
+main {
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 2em;
+    align-self: center;
+    margin: 20px;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links li {
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+.social-links li a i:hover{
+    color:rgba(37, 37, 37, 1);
+    text-shadow: 0 0 1px rgb(129, 129, 129);
+}
+
+#mail {
+    margin: 15px;
+    display: flex;
+    gap: 5px;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#mail:hover, #mail:hover i{
+    color:rgba(37, 37, 37, 1);
+    text-shadow: 0 0 1px rgb(129, 129, 129);
+}
+
+#mail i {
+    font-size: 1.3rem;
+}
+
+
+
+
+
+.projects {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-gap: 20px;
+}
+
+.project {
+    background-color: rgb(248, 248, 248);
+    /* flex-basis: 48%; */
+    /* justify-self: stretch; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.project:hover {
+    background-color: rgba(248, 248, 248, 0.5);
+}
+
+.project > img {
+    max-width: 100%;
+    padding: 15px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px 15px;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.project-info > * {
+    margin-bottom: 5px;
+    /* flex-basis: auto; */
+}
+
+.project-name {
+    font-size: 1.3rem;
+}
+
+.technologies-list {
+    font-size: 1.2rem;
+}
+
+.project-description {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 1.1rem;
+}
+
+.project-description a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.project-description a:hover{
+    color: rgb(10, 7, 7);
+}
+
+.links > a {
+    color: rgb(65, 63, 63);
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.3rem;
+}
+
+.links > a:hover {
+    color: rgb(10, 7, 7);
+    text-shadow: 0 0 1px rgb(129, 129, 129);
+}
+
