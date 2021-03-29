@@ -78,8 +78,8 @@ h1 {
 
 .projects {
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 90%;
     grid-gap: 20px;
 }
